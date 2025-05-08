@@ -1,14 +1,20 @@
-ConstructionAppWeb/
+ConstructionApp
+│
 ├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── Main.java
-│   │   │   ├── Employee.java
-│   │   │   ├── Construction.java
-│   │   │   └── ConstructionManager.java
-│   │   └── resources/
-│   │       └── templates/
-│   │           ├── index.mustache
-│   │           ├── addEmployee.mustache
-│   │           └── addConstruction.mustache
+├── public
+│   └── style.css
+│
+└── src
+    ├── main
+    │   ├── java
+    │   │   ├── Main.java
+    │   │   ├── Employee.java
+    │   │   ├── Construction.java
+    │   │   ├── WorkSession.java
+    │   │   └── ConstructionManager.java
+    │   └── resources
+    │       └── templates
+    │           ├── index.mustache
+    │           ├── addEmployee.mustache
+    │           ├── addConstruction.mustache
+    │           └── report.mustache
